@@ -33,7 +33,7 @@
                                                         <li>
                                                             <a href="#step-1">
                                                                 <em>1</em>
-                                                                <span>Account Information</span>
+                                                                <span>Connect Warehouse</span>
                                                             </a>
                                                         </li>
                                                         <li>
@@ -62,7 +62,7 @@
                                                         </li>
                                                         <li>
                                                             <a href="#step-6">
-                                                                <em>5</em>
+                                                                <em>6</em>
                                                                 <span>Submission Confirmation</span>
                                                             </a>
                                                         </li>
@@ -78,8 +78,8 @@
                                                                                 data-bs-target="#collapseOne"
                                                                                 aria-expanded="false" aria-controls="collapseOne"
                                                                                 class="text-start m-0 p-0 btn btn-link">
-                                                                                <span class="form-heading">Account Information
-                                                                                    <p>Enter your user informations below</p>
+                                                                                <span class="form-heading">Connect Warehouse to Cloud
+                                                                                    <a class="btn btn-primary">Connect</a>
                                                                                 </span>
                                                                             </button>
                                                                         </div>
@@ -87,59 +87,7 @@
                                                                     <div data-parent="#accordion" id="collapseOne"
                                                                         aria-labelledby="headingOne" class="collapse show">
                                                                         <div class="card-body">
-                                                                            <div class="row">
-                                                                                <div class="col-md-6">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleEmail2">Email</label>
-                                                                                        <input name="email" id="exampleEmail2"
-                                                                                            placeholder="with a placeholder"
-                                                                                            type="email" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-6">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="examplePassword">Password</label>
-                                                                                        <input name="password" id="examplePassword"
-                                                                                            placeholder="password placeholder"
-                                                                                            type="password" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress">Address</label>
-                                                                                <input name="address" id="exampleAddress"
-                                                                                    placeholder="1234 Main St"
-                                                                                    type="text" class="form-control">
-                                                                            </div>
-                                                                            <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress2">Address 2</label>
-                                                                                <input name="address2" id="exampleAddress2"
-                                                                                    placeholder="Apartment, studio, or floor"
-                                                                                    type="text" class="form-control">
-                                                                            </div>
-                                                                            <div class="row">
-                                                                                <div class="col-md-6">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleCity">City</label>
-                                                                                        <input name="city" id="exampleCity"
-                                                                                            type="text" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-4">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleState">State</label>
-                                                                                        <input name="state" id="exampleState"
-                                                                                            type="text" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-2">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleZip">Zip</label>
-                                                                                        <input name="zip" id="exampleZip"
-                                                                                            type="text" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
+                                                                            
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -155,8 +103,8 @@
                                                                                 data-bs-target="#collapseOne"
                                                                                 aria-expanded="false" aria-controls="collapseOne"
                                                                                 class="text-start m-0 p-0 btn btn-link">
-                                                                                <span class="form-heading">Account Information
-                                                                                    <p>Enter your user informations below</p>
+                                                                                <span class="form-heading">Warehouse Registration
+                                                                                    <p>Enter your informations below</p>
                                                                                 </span>
                                                                             </button>
                                                                         </div>
@@ -167,55 +115,163 @@
                                                                             <div class="row">
                                                                                 <div class="col-md-6">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleEmail2">Email</label>
-                                                                                        <input name="email" id="exampleEmail2"
-                                                                                            placeholder="with a placeholder"
-                                                                                            type="email" class="form-control">
+                                                                                        <label class="form-label" for="exampleEmail2">City</label>
+                                                                                        <select class="form-control">
+                                                                                            <option hidden> Select City </option>
+                                                                                            <option>Some City</option>
+                                                                                        </select> 
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-6">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="examplePassword">Password</label>
-                                                                                        <input name="password" id="examplePassword"
-                                                                                            placeholder="password placeholder"
-                                                                                            type="password" class="form-control">
+                                                                                        <label class="form-label" for="examplePassword">Country</label>
+                                                                                        <select class="form-control">
+                                                                                            <option hidden> Select Country </option>
+                                                                                            <option>Some City</option>
+                                                                                        </select> 
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Vendor Legal Name</label>
+                                                                                        <input type="text" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Trade License</label>
+                                                                                        <input class="form-control" type="file"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Expiry Date</label>
+                                                                                        <input class="form-control" type="date"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
                                                                             <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress">Address</label>
+                                                                                <label class="form-label" for="exampleAddress">Warehouse Address</label>
                                                                                 <input name="address" id="exampleAddress"
                                                                                     placeholder="1234 Main St"
                                                                                     type="text" class="form-control">
                                                                             </div>
                                                                             <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress2">Address 2</label>
+                                                                                <label class="form-label" for="exampleAddress2">Warehouse Name</label>
                                                                                 <input name="address2" id="exampleAddress2"
                                                                                     placeholder="Apartment, studio, or floor"
                                                                                     type="text" class="form-control">
                                                                             </div>
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress2">Company Type:</label>
+                                                                                <input type="checkbox"/> Warehouse Owner
+                                                                                <input type="checkbox"/> Freight Forwarder
+                                                                                <input type="checkbox"/> SME
+                                                                                <input type="checkbox"/> Warehouse Operator
+                                                                            </div>
                                                                             <div class="row">
-                                                                                <div class="col-md-6">
+                                                                                <div class="col-md-4">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleCity">City</label>
-                                                                                        <input name="city" id="exampleCity"
-                                                                                            type="text" class="form-control">
+                                                                                        <label class="form-label" for="exampleEmail2">Admin Email Address</label>
+                                                                                        <input type="text" class="form-control"/>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-4">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleState">State</label>
+                                                                                        <label class="form-label" for="examplePassword">Password </label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Confirm Password</label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Operation Email Address</label>
+                                                                                        <input type="text" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Password </label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Confirm Password</label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Finance Email Address</label>
+                                                                                        <input type="text" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Password </label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="examplePassword">Confirm Password</label>
+                                                                                        <input class="form-control" type="password"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-md-3">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Admin Mobile No</label>
+                                                                                        <input name="city" id="exampleCity"
+                                                                                            type="text" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-3">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleState">Operation Mobile No</label>
                                                                                         <input name="state" id="exampleState"
                                                                                             type="text" class="form-control">
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-md-2">
+                                                                                <div class="col-md-3">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleZip">Zip</label>
+                                                                                        <label class="form-label" for="exampleZip">Finance Mobile No</label>
                                                                                         <input name="zip" id="exampleZip"
                                                                                             type="text" class="form-control">
                                                                                     </div>
                                                                                 </div>
+
+                                                                                <div class="col-md-3">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleZip">Landline No</label>
+                                                                                        <input name="zip" id="exampleZip"
+                                                                                            type="text" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -232,8 +288,8 @@
                                                                                 data-bs-target="#collapseOne"
                                                                                 aria-expanded="false" aria-controls="collapseOne"
                                                                                 class="text-start m-0 p-0 btn btn-link">
-                                                                                <span class="form-heading">Account Information
-                                                                                    <p>Enter your user informations below</p>
+                                                                                <span class="form-heading">Warehouse Registration Page
+                                                                                    <p>Enter your informations below</p>
                                                                                 </span>
                                                                             </button>
                                                                         </div>
@@ -242,58 +298,396 @@
                                                                         aria-labelledby="headingOne" class="collapse show">
                                                                         <div class="card-body">
                                                                             <div class="row">
-                                                                                <div class="col-md-6">
+                                                                                <div class="col-md-4">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleEmail2">Email</label>
-                                                                                        <input name="email" id="exampleEmail2"
-                                                                                            placeholder="with a placeholder"
-                                                                                            type="email" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-md-6">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="examplePassword">Password</label>
-                                                                                        <input name="password" id="examplePassword"
-                                                                                            placeholder="password placeholder"
-                                                                                            type="password" class="form-control">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress">Address</label>
-                                                                                <input name="address" id="exampleAddress"
-                                                                                    placeholder="1234 Main St"
-                                                                                    type="text" class="form-control">
-                                                                            </div>
-                                                                            <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress2">Address 2</label>
-                                                                                <input name="address2" id="exampleAddress2"
-                                                                                    placeholder="Apartment, studio, or floor"
-                                                                                    type="text" class="form-control">
-                                                                            </div>
-                                                                            <div class="row">
-                                                                                <div class="col-md-6">
-                                                                                    <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleCity">City</label>
-                                                                                        <input name="city" id="exampleCity"
-                                                                                            type="text" class="form-control">
+                                                                                        <label class="form-label" for="exampleEmail2">Total Warehouse Size</label>
+                                                                                       
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="col-md-4">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleState">State</label>
-                                                                                        <input name="state" id="exampleState"
-                                                                                            type="text" class="form-control">
+                                                                                        
+                                                                                        <input type="number" class="form-control">
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="col-md-2">
+
+                                                                                <div class="col-md-4">
                                                                                     <div class="position-relative mb-3">
-                                                                                        <label class="form-label" for="exampleZip">Zip</label>
-                                                                                        <input name="zip" id="exampleZip"
-                                                                                            type="text" class="form-control">
+                                                                                        
+                                                                                       <select class="form-control">
+                                                                                           <option>SQM</option>
+                                                                                       </select>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Outside Enterance View</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                    <label class="form-label" for="exampleEmail2">Inside Wide View</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                    <label class="form-label" for="exampleEmail2">Inside Wide View-2</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Is Where House Racked </label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+                                                                           
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Total Racked Area</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Total Pallet Position Racked</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>Pallet</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Max. Pallet height in Rack</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>CMS</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Max Pallet Width in Rack</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Max Pallet Length in Rack</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Max Pallet Weight in Rack</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>KGS</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Rack View 1</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                    <label class="form-label" for="exampleEmail2">Rack View 2</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                               
+                                                                            </div>
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Do You have Open Yard</label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Total Open Yard Area</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Yard View 1</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                    <label class="form-label" for="exampleEmail2">Yard View 2</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                               
+                                                                            </div>
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Warehouse and Open Yard Location is Same</label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Address</label>
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="text" class="form-control">
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                    <label class="form-label" for="exampleCity">Google Map</label>
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                               
+                                                                            </div>
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Do you have Cold Storage</label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Total Area of Cold Storage</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                        <input name="state" id="exampleState"
+                                                                                            type="number" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleCity">Temprature Range</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                      
+                                                                                       <select class="form-control">
+                                                                                           <option>AC(15c to 25C)</option>
+                                                                                           <option>Refrigrated(1c to 14C)</option>
+                                                                                       </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                       
+                                                                                        <select class="form-control">
+                                                                                            <option>SQM</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Is Cold Storage Certified?</label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Upload Certificate</label>
+                                                                                       
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                   
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                                <div class="col-md-4">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                   
+                                                                                        <input type="date" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                               
+                                                                            </div>
+
+                                                                            <div class="row">
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        <label class="form-label" for="exampleEmail2">Cold Store View 1</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-6">
+                                                                                    <div class="position-relative mb-3">
+                                                                                        
+                                                                                    <label class="form-label" for="exampleEmail2">Cold Store View 2</label>
+                                                                                        <input type="file" class="form-control"/>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                               
+                                                                            </div>
+
+                                                                            
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -309,8 +703,8 @@
                                                                                 data-bs-target="#collapseOne"
                                                                                 aria-expanded="false" aria-controls="collapseOne"
                                                                                 class="text-start m-0 p-0 btn btn-link">
-                                                                                <span class="form-heading">Account Information
-                                                                                    <p>Enter your user informations below</p>
+                                                                                <span class="form-heading">Warehouse Add-Ons
+                                                                                    <p>Enter your informations below</p>
                                                                                 </span>
                                                                             </button>
                                                                         </div>
@@ -318,6 +712,12 @@
                                                                     <div data-parent="#accordion" id="collapseOne"
                                                                         aria-labelledby="headingOne" class="collapse show">
                                                                         <div class="card-body">
+
+                                                                            <div class="position-relative mb-3">
+                                                                                <label class="form-label" for="exampleAddress">Do You have a forklift in warehouse</label>
+                                                                                <input type="checkbox"> Yes
+                                                                            </div>
+
                                                                             <div class="row">
                                                                                 <div class="col-md-6">
                                                                                     <div class="position-relative mb-3">
