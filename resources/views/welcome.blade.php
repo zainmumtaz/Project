@@ -12,9 +12,9 @@
                                         <i class="lnr-map text-info"></i>
                                     </div>
                                     <div>
-                                        Forms Wizard
+                                        Warehouse Registration
                                         <div class="page-title-subheading">
-                                            Easily create beautiful form multi step wizards!
+                                            Please Resgister on your portal by enter all required information
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                                                                         <label class="form-label" for="examplePassword">Country</label>
                                                                                         <select class="form-control">
                                                                                             <option hidden> Select Country </option>
-                                                                                            <option>Some City</option>
+                                                                                           @include('layouts.countries')
                                                                                         </select> 
                                                                                     </div>
                                                                                 </div>
@@ -169,11 +169,11 @@
                                                                             </div>
 
                                                                             <div class="position-relative mb-3">
-                                                                                <label class="form-label" for="exampleAddress2">Company Type:</label>
-                                                                                <input type="checkbox"/> Warehouse Owner
-                                                                                <input type="checkbox"/> Freight Forwarder
-                                                                                <input type="checkbox"/> SME
-                                                                                <input type="checkbox"/> Warehouse Operator
+                                                                                <label class="form-label col-md-4" for="exampleAddress2">Company Type:</label>
+                                                                                <input type="checkbox" class="form-check-input"/> Warehouse Owner
+                                                                                <input type="checkbox"  class="form-check-input"/> Freight Forwarder
+                                                                                <input type="checkbox"  class="form-check-input"/> SME
+                                                                                <input type="checkbox"  class="form-check-input"/> Warehouse Operator
                                                                             </div>
                                                                             <div class="row">
                                                                                 <div class="col-md-4">
